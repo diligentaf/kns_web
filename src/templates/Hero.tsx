@@ -12,7 +12,7 @@ const Hero = () => (
   <Background color="bg-gradient-to-r from-purple-700 to-violet-400">
     <Section yPadding="py-6">
       <NavbarTwoColumns logo={<Logo xl />}>
-        <li>
+        {/* <li>
           <Link href="/">
             <a className="text-primary-100">Home</a>
           </Link>
@@ -21,7 +21,7 @@ const Hero = () => (
           <Link href="/">
             <a className="text-primary-100">About</a>
           </Link>
-        </li>
+        </li> */}
       </NavbarTwoColumns>
     </Section>
 
