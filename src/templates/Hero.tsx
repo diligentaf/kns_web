@@ -38,7 +38,7 @@ const Hero = () => (
             </span>
           </>
         }
-        description={'coming soon 🚀'}
+        description={'more info? ⬇️'}
         // description={
         //   <>
         //     <span className="text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-br from-purple-300 to-violet-200">
