@@ -8,17 +8,18 @@ import { NavbarTwoColumns } from '../navigation/NavbarTwoColumns';
 import { Logo } from './Logo';
 
 const Hero = () => (
-  <Background color="bg-gray-100">
+  // <Background color="bg-gradient-to-r from-violet-400 to-purple-700">
+  <Background color="bg-gradient-to-r from-purple-700 to-violet-400">
     <Section yPadding="py-6">
       <NavbarTwoColumns logo={<Logo xl />}>
         <li>
           <Link href="/">
-            <a>GitHub</a>
+            <a className="text-primary-100">Home</a>
           </Link>
         </li>
         <li>
           <Link href="/">
-            <a>Sign in</a>
+            <a className="text-primary-100">About</a>
           </Link>
         </li>
       </NavbarTwoColumns>
@@ -28,11 +29,16 @@ const Hero = () => (
       <HeroOneButton
         title={
           <>
-            {'Decentralised naming for\n'}
-            <span className="text-primary-500">Keplr wallets</span>
+            <span className="text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-br from-violet-100 to-purple-300">
+              Decentralised naming for
+            </span>
+            <br />
+            <span className="text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-br from-purple-300 to-violet-200">
+              Keplr wallets
+            </span>
           </>
         }
-        description="coming soon 🚀"
+        description={<span className="text-primary-100">coming soon 🚀</span>}
         button={
           <Link href="https://twitter.com/KeplrName">
             <a>

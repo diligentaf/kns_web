@@ -3,7 +3,7 @@ import { Section } from '../layout/Section';
 
 const VerticalFeatures = () => (
   <Section
-    title="Your Keplr username"
+    title="Your Keplr Username"
     description="No more sandboxed usernames. Own your username, store an avatar and other profile data, and use it across services."
   >
     <VerticalFeatureRow
@@ -20,7 +20,7 @@ const VerticalFeatures = () => (
       reverse
     />
     <VerticalFeatureRow
-      title="KNS Auction"
+      title="KNS Auctions"
       description="KNS Auctions is the place to go for great domain names that are expiring or have been put up for auction."
       image="/assets/images/feature3.svg"
       imageAlt="Third feature alt text"

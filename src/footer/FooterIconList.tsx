@@ -15,11 +15,11 @@ const FooterIconList = (props: IFooterIconListProps) => (
         }
 
         .footer-icon-list :global(a) {
-          @apply text-gray-500;
+          @apply text-slate-50;
         }
 
         .footer-icon-list :global(a:hover) {
-          @apply text-gray-700;
+          @apply text-sky-500;
         }
 
         .footer-icon-list :global(svg) {
