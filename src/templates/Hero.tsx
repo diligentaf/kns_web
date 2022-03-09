@@ -38,7 +38,14 @@ const Hero = () => (
             </span>
           </>
         }
-        description={<span className="text-primary-100">coming soon 🚀</span>}
+        description={'coming soon 🚀'}
+        // description={
+        //   <>
+        //     <span className="text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-br from-purple-300 to-violet-200">
+        //       coming soon 🚀
+        //     </span>
+        //   </>
+        // }
         button={
           <Link href="https://twitter.com/KeplrName">
             <a>
