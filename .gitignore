@@ -33,3 +33,6 @@ local
 
 # vercel
 .vercel
+
+#server configuration
+aws_deploy.sh
